@@ -10,7 +10,6 @@ import { Title, Form, Repositories, Error } from './styles';
 interface Repository {
   full_name: string;
   description: string;
-  login: string;
   owner: {
     avatar_url: string;
     login: string;
